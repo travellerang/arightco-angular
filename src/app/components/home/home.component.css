@@ -1,0 +1,42 @@
+.bg {
+    /* The image used */
+    
+/*  background-image: url('assets/icons/Areas-of-Practice-background.png'); */
+  
+    /* Full height */
+    height: 790px;
+    width: 1183px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bgs {
+    /* The image used */
+  /*   background-image: url('assets/img/brand/TESTIMONIALS-Background.png'); */
+  
+    /* Full height */
+    height: 477px;
+    width: 1350px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .imgs {
+    vertical-align: middle;
+    border-style: none;
+    border-radius: 81px;
+    width: 152px;
+    box-shadow: 101px;
+    margin-left: 63px;
+    box-shadow: 0px 2px 8px grey;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    margin-left: 37px;
+}

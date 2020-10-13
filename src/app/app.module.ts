@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
-import { ServicesComponent } from './components/services/services.component';
 import { OurClientsComponent } from './components/our-clients/our-clients.component';
 import { OurTeamComponent } from './components/our-team/our-team.component';
 import { CareerComponent } from './components/career/career.component';
@@ -15,13 +14,14 @@ import { FooterComponent } from './components/footer/footer.component';
 import { ContactUsComponent } from './components/contact-us/contact-us.component';
 import { QuoteComponent } from './components/quote/quote.component';
 import { AdminComponent } from './components/admin/admin.component';
+import { ServicesProvideComponent } from './components/serviceProvide/serviceProvide.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     HomeComponent,
-    ServicesComponent,
+    ServicesProvideComponent,
     OurClientsComponent,
     OurTeamComponent,
     CareerComponent,

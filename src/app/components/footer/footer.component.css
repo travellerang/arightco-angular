@@ -1,0 +1,33 @@
+
+.navbar-expand-lg .navbar-collapse {
+    display: -ms-flexbox!important;
+    display: flex!important;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+    margin-right: 160px;
+}
+
+.footerli{
+font-size: 21px;
+font-size: 16px
+}
+.navbar-expand-lg>.container, .navbar-expand-lg>.container-fluid {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    margin: 21px;
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    padding: 27px;
+}
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+    color: white;
+    background: #656060;
+    /* width: 72px; */
+    padding: 1px;
+    box-shadow: 0 1px 8px 0 rgb(91 78 76 / 20%), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+    

@@ -1,0 +1,18 @@
+b, strong {
+    font-weight: bolder;
+    color: #646464;
+    font-size: large;
+}
+.btn1{
+background: #f3fff3;
+border: 2px solid #00000073;
+color: #00000073;
+padding: 4px 29px;
+font-size: 10px;
+cursor: pointer;
+border-radius: 9px;
+}
+.mb-5, .my-5 {
+    margin-bottom: 0rem!important;
+    box-shadow: 10px 10px;
+}
