@@ -25,6 +25,12 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+  .caroser{
+    height: 409px;
+      width: 1348px;
+     /*  margin-right: 73px;
+      margin-left: 35px; */
+  }
 
   .imgs {
     vertical-align: middle;

@@ -15,6 +15,8 @@ import { ContactUsComponent } from './components/contact-us/contact-us.component
 import { QuoteComponent } from './components/quote/quote.component';
 import { AdminComponent } from './components/admin/admin.component';
 import { ServicesProvideComponent } from './components/serviceProvide/serviceProvide.component';
+import { CarouselModule } from 'ngx-owl-carousel-o';
+import { ModalModule } from 'ngx-bootstrap/modal';
 
 @NgModule({
   declarations: [
@@ -34,7 +36,9 @@ import { ServicesProvideComponent } from './components/serviceProvide/servicePro
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    CarouselModule,
+    ModalModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent]

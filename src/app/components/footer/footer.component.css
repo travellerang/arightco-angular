@@ -11,6 +11,12 @@
 font-size: 21px;
 font-size: 16px
 }
+
+.bg-dark[_ngcontent-jhw-c18] {
+    background-color: #1a1a1a!important;
+    margin-right: -17px;
+    margin-left: 40px;
+}
 .navbar-expand-lg>.container, .navbar-expand-lg>.container-fluid {
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
@@ -31,3 +37,18 @@ hr {
     box-shadow: 0 1px 8px 0 rgb(91 78 76 / 20%), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
     
+.bg-dark {
+    background-color: #1a1a1a!important;
+   /*  margin-right: -17px;
+    margin-left: 40px; */
+}
+
+
+.navbar-expand-lg .navbar-collapse {
+    display: -ms-flexbox!important;
+    display: flex!important;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+    margin-bottom: -70px;
+    margin-top: -30px;
+}

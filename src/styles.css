@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+.owl-next {
+    position: absolute;
+    right: .5rem;
+    border-radius: 50%!important;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0!important;
+    background-color: transparent!important;
+}
+
+.owl-next:hover {
+    background-color: transparent!important;
+}
+
+.owl-prev {
+    position: absolute;
+    left: .5rem;
+    border-radius: 50%!important;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0!important;
+    background-color: transparent!important;
+}
+
+.owl-prev:hover {
+    background-color: transparent!important;
+}
